@@ -10,7 +10,7 @@ let distance = lax.distanceTo(jfk)
 ```
 
 ### Usage notes:
-- Output azimuths are by default returned in the interval (-180, 180]. To use compass bearings [0-360), modify the Geodesic struct by run the following line **before** carrying out any calculations.
+- Output azimuths are by default returned in the interval (-180, 180]. To use compass bearings [0-360), modify the Geodesic struct by running the following line **before** carrying out any calculations.
 ```swift
 Geodesic.useCompassAzimuths = true
 ```
